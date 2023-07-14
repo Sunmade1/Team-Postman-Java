@@ -1,11 +1,11 @@
-/** import org.openqa.selenium.By;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-
+/**
    Flow of the task
     1. Open your chrome browser
     2.Input the url
@@ -30,7 +30,7 @@ import org.testng.annotations.Test;
     8.Verify that the item list page url is correct
     9.Verify that the item searched for on the meaghan's page is present
     10.Verify that the user is directed to the home page when he/she logout
-
+ */
 
 
 
@@ -66,9 +66,9 @@ public class SeleniumWebSignupTest {
             //Test.2 Verify that the user is directed to the signup page upon clicking the signup button
             Thread.sleep(5000);
             // 5.Input Username in the username input field
-            driver.findElement(By.id("user_username")).sendKeys("sunmade07");
+            driver.findElement(By.id("user_username")).sendKeys("sunma011");
             //6.Input Mail address in email input field
-            driver.findElement(By.id("user_email")).sendKeys("las07made@gmail.com");
+            driver.findElement(By.id("user_email")).sendKeys("la001mad@mailinator.com");
             //7.Input password
             driver.findElement(By.id("user_password")).sendKeys("admin");
             //8.Click the signup button
@@ -124,8 +124,8 @@ public class SeleniumWebSignupTest {
             driver.findElement(By.xpath("/html/body/div[2]/div/a[2]")).click();
             Thread.sleep(5000);
             // 5.Input Username in the username input field
-            driver.findElement(By.id("user_username")).sendKeys("sou12");
-            driver.findElement(By.id("user_email")).sendKeys("las053made@mailinator.com");
+            driver.findElement(By.id("user_username")).sendKeys("sou170");
+            driver.findElement(By.id("user_email")).sendKeys("las059mde@mailinator.com");
             //7.Input password
             driver.findElement(By.id("user_password")).sendKeys("1");
             //Test 5.Verify that the user cannot signup with password less than or equal to one character
@@ -146,11 +146,11 @@ public class SeleniumWebSignupTest {
             driver.findElement(By.xpath("/html/body/div[2]/div/a[2]")).click();
             Thread.sleep(5000);
             // 5.Input Username in the username input field
-             driver.findElement(By.id("user_username")).sendKeys("so");
-            // 3.Verify that the user cannot signup with username less than three characters
+             driver.findElement(By.id("user_username")).sendKeys("sb");
+            // Test 3.Verify that the user cannot signup with username less than three characters
 
              //6.Input Mail address in email input field
-            driver.findElement(By.id("user_email")).sendKeys("las0made@gmail.com");
+            driver.findElement(By.id("user_email")).sendKeys("las0040mad@gmail.com");
              //7.Input password
              driver.findElement(By.id("user_password")).sendKeys("admin");
             //8.Click the signup button
@@ -163,9 +163,9 @@ public class SeleniumWebSignupTest {
         driver.findElement(By.xpath("//*[@id=\"bs-example-navbar-collapse-1\"]/ul/li[2]/a")).click();
         Thread.sleep(5000);
         // 5.Input Username in the username input field
-        driver.findElement(By.id("user_username")).sendKeys("sounu");
+        driver.findElement(By.id("user_username")).sendKeys("soun050");
         //6.Input Mail address in email input field
-        driver.findElement(By.id("user_email")).sendKeys("las0made");
+        driver.findElement(By.id("user_email")).sendKeys("las0601made");
         //7.Input password
         driver.findElement(By.id("user_password")).sendKeys("admin");
         //8.Click the signup button
@@ -181,7 +181,7 @@ public class SeleniumWebSignupTest {
         // 5.Input Username in the username input field
         driver.findElement(By.id("user_username")).sendKeys("");
         //6.Input Mail address in email input field
-        driver.findElement(By.id("user_email")).sendKeys("dele02@mailinator.com");
+        driver.findElement(By.id("user_email")).sendKeys("dele0340@mailinator.com");
         //7.Input password
         driver.findElement(By.id("user_password")).sendKeys("2222");
         //8.Click the signup button
@@ -195,9 +195,9 @@ public class SeleniumWebSignupTest {
         driver.findElement(By.xpath("//*[@id=\"bs-example-navbar-collapse-1\"]/ul/li[2]/a")).click();
         Thread.sleep(5000);
         // 5.Input Username in the username input field
-        driver.findElement(By.id("user_username")).sendKeys("Gabi");
+        driver.findElement(By.id("user_username")).sendKeys("Gab02");
         //6.Input Mail address in email input field
-        driver.findElement(By.id("user_email")).sendKeys("dele03@mailinator.com");
+        driver.findElement(By.id("user_email")).sendKeys("");
         //7.Input password
         driver.findElement(By.id("user_password")).sendKeys("2222");
         //8.Click the signup button
@@ -211,11 +211,11 @@ public class SeleniumWebSignupTest {
         driver.findElement(By.xpath("//*[@id=\"bs-example-navbar-collapse-1\"]/ul/li[2]/a")).click();
         Thread.sleep(5000);
         // 5.Input Username in the username input field
-        driver.findElement(By.id("user_username")).sendKeys("Moses");
+        driver.findElement(By.id("user_username")).sendKeys("Moses012");
         //6.Input Mail address in email input field
-        driver.findElement(By.id("user_email")).sendKeys("dele04@mailinator.com");
+        driver.findElement(By.id("user_email")).sendKeys("de109@mailinator.com");
         //7.Input password
-        driver.findElement(By.id("user_password")).sendKeys(" ");
+        driver.findElement(By.id("user_password")).sendKeys("");
         //8.Click the signup button
         driver.findElement(By.xpath("//*[@id=\"submit\"]")).click();
         //6.Verify that the user cannot signup with either/all of the input fields blank
@@ -228,5 +228,5 @@ public class SeleniumWebSignupTest {
         }
     }
 
- */
+
 
